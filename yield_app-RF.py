@@ -5,9 +5,7 @@ import numpy as np
 from sklearn.compose import make_column_transformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler, MinMaxScaler, RobustScaler, OrdinalEncoder
 from sklearn.pipeline import Pipeline
-#import xgboost as xgb
 from sklearn.ensemble import RandomForestRegressor
-#from xgboost import XGBRegressor
 from sklearn.model_selection import GridSearchCV, cross_validate, cross_val_score
 from PIL import Image
 import pickle
