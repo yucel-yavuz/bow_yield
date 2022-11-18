@@ -7,7 +7,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler, MinMaxScaler, R
 from sklearn.pipeline import Pipeline
 #import xgboost as xgb
 from sklearn.ensemble import RandomForestRegressor
-from xgboost import XGBRegressor
+#from xgboost import XGBRegressor
 from sklearn.model_selection import GridSearchCV, cross_validate, cross_val_score
 from PIL import Image
 import pickle
